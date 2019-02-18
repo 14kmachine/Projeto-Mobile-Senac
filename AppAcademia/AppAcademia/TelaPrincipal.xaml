@@ -31,7 +31,7 @@
                     HorizontalOptions="FillAndExpand"
                     Margin="10,1,10,10"/>
 
-        <StackLayout Orientation="Horizontal">
+        <StackLayout Orientation="Horizontal"> 
                 <Button Text="Feedback Professores"
                         HorizontalOptions="FillAndExpand"
                     x:Name="buttonFeedbackProfessores"                       
