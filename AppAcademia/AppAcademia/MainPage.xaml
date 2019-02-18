@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:AppAcademia"
+             x:Class="AppAcademia.MainPage">
+
+    <StackLayout>
+        <Label Text="Academia Equipe Performance"
+               HorizontalOptions="Center" 
+               Margin="2,20,2,2"/>
+
+        <Image Source=""/>
+
+        <Entry Text="Login" HorizontalTextAlignment="Center" x:Name="entryLogin" Margin="0,320,2,2"/>
+        <Entry Text="Senha" HorizontalTextAlignment="Center" x:Name="entrySenha"/>
+
+        <StackLayout Orientation="Horizontal">
+            <Button Text="Cadastro" 
+                    x:Name="ButtonCadastro"
+                    HorizontalOptions="FillAndExpand"
+                    Margin="20,2,2,2"/>
+
+
+            <Button Text="Recuperar Senha" 
+                    x:Name="ButtonRecuperarSenha"
+                    HorizontalOptions="FillAndExpand"
+                    Margin="100,2,2,2"/>
+
+
+        </StackLayout>
+        
+        <StackLayout Orientation="Horizontal">
+            
+            <Button Text="Entrar" x:Name="ButtonEntrar" 
+                    HorizontalOptions="FillAndExpand" />
+        </StackLayout>
+
+    </StackLayout>
+
+</ContentPage>

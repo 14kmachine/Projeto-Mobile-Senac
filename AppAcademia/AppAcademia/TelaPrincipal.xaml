@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppAcademia.TelaPrincipal">
+    <ContentPage.Content>
+        <StackLayout>
+            <Image Source=""/>
+
+            <Button Text="Angendar Avaliação"
+                    x:Name="buttonConfirmar"
+                    HorizontalOptions="FillAndExpand"
+                     Margin="10,110,10,10"/>
+            
+            <Button Text="Treino"
+                    x:Name="buttonTreino"
+                    HorizontalOptions="FillAndExpand"
+                    Margin="10,1,10,10"/>
+            
+            <Button Text="Perguntas e Duvidas"
+                    x:Name="buttonPerguntas"
+                    HorizontalOptions="FillAndExpand"
+                    Margin="10,1,10,10"/>
+           
+            <Button Text="Dicas de Treino e Alimentação"
+                    x:Name="buttonTreinoeAlimentação"
+                    HorizontalOptions="FillAndExpand"
+                    Margin="10,1,10,10"/>
+           
+            <Button Text="Sobre"
+                    x:Name="buttonSobre"
+                    HorizontalOptions="FillAndExpand"
+                    Margin="10,1,10,10"/>
+
+        <StackLayout Orientation="Horizontal">
+                <Button Text="Feedback Professores"
+                        HorizontalOptions="FillAndExpand"
+                    x:Name="buttonFeedbackProfessores"                       
+                    Margin="10,60,2,12"/>
+                <Button Text="Sair"
+                    x:Name="buttonSair"
+                   Margin="10,60,2,12"/>
+
+            </StackLayout>
+
+
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

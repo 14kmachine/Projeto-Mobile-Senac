@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppAcademia.TelaCadastro">
+    <ContentPage.Content>
+        <StackLayout>
+           <Label Text="Area de Cadastro"
+                  HorizontalOptions="Center"
+                  Margin="2,20,2,2"/>
+            <Entry Text="Login"
+                   HorizontalTextAlignment="Center"
+                   x:Name="entryLogin"
+                   Margin="2,10,2,2"/>
+            <Entry Text="Senha"
+                   HorizontalTextAlignment="Center"
+                   x:Name="entrySenha"
+                   Margin="2,10,2,2"/>
+            <Entry Text="Digite Novamente a Senha"
+                   HorizontalTextAlignment="Center"
+                   x:Name="entryDigiteNovamenteAsenhaCadastro"
+                   Margin="2,10,2,2"/>
+            <Entry Text="E-MAIL"
+                   HorizontalTextAlignment="Center"
+                   x:Name="entryEmailCadastro"
+                   Margin="2,10,2,2"/>
+            
+            <Button Text="Cadastrar"
+                    x:Name="buttonCadastrar"
+                    HorizontalOptions="FillAndExpand"
+                    Margin="20,50"/>
+            
+
+
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
