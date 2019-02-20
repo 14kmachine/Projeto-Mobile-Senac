@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppAcademia.TelaPerguntaseDuvidas">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Perguntas e Duvidas"
+                   HorizontalOptions="Center"
+                   Margin="10,30,10,10"/>
+
+            <Label Text="Digite sua duvida aqui =]"
+                   Margin="10,40"/>
+
+            <Button Text="Enviar"
+                    x:Name="buttonEnviar"
+                    VerticalOptions="EndAndExpand"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

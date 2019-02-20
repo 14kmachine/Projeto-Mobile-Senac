@@ -1,40 +1,45 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+<MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:AppAcademia"
-             x:Class="AppAcademia.MainPage">
+             x:Class="AppAcademia.MainPage"
+             Title="MenuMaster">
 
-    <StackLayout>
-        <Label Text="Academia Equipe Performance"
-               HorizontalOptions="Center" 
-               Margin="2,20,2,2"/>
+    <MasterDetailPage.Master>
+        <ContentPage Title="Menu">
+            <StackLayout>
+                <TableView>
+                    <TableSection>
+                        <ViewCell>
+                            <Label Text="teste"/>
+                        </ViewCell>
+                        <ViewCell Tapped="ViewCell_Tapped">
+                            <Label Text="Agendar Avaliação" x:Name="AgendarTreino"/>
+                        </ViewCell>
 
-        <Image Source=""/>
+                        <ViewCell Tapped="ViewCell_Tapped_2">
+                            <Label Text="Perguntas e Duvidas" x:Name="PerguntaseDuvidas"/>
+                        </ViewCell>
 
-        <Entry Text="Login" HorizontalTextAlignment="Center" x:Name="entryLogin" Margin="0,320,2,2"/>
-        <Entry Text="Senha" HorizontalTextAlignment="Center" x:Name="entrySenha"/>
+                        <ViewCell Tapped="ViewCell_Tapped_3">
+                            <Label Text="Dicas Treino e Alimentação" x:Name="DicasTreinoeAlimentação"/>
+                        </ViewCell>
 
-        <StackLayout Orientation="Horizontal">
-            <Button Text="Cadastro" 
-                    x:Name="ButtonCadastro"
-                    HorizontalOptions="FillAndExpand"
-                    Margin="20,2,2,2"/>
+                        <ViewCell Tapped="ViewCell_Tapped_4">
+                            <Label Text="Sobre" x:Name="Sobre"/>
+                        </ViewCell>
 
+                        <ViewCell Tapped="ViewCell_Tapped_5">
+                            <Label Text="Feedback Professores" x:Name="FeedbackProfessores"/>
+                        </ViewCell>
+                        
+                       
 
-            <Button Text="Recuperar Senha" 
-                    x:Name="ButtonRecuperarSenha"
-                    HorizontalOptions="FillAndExpand"
-                    Margin="100,2,2,2"/>
+                    </TableSection>
+                </TableView>
 
+            </StackLayout>
+        </ContentPage>
+    </MasterDetailPage.Master>
 
-        </StackLayout>
-        
-        <StackLayout Orientation="Horizontal">
-            
-            <Button Text="Entrar" x:Name="ButtonEntrar" 
-                    HorizontalOptions="FillAndExpand" />
-        </StackLayout>
-
-    </StackLayout>
-
-</ContentPage>
+</MasterDetailPage>

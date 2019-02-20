@@ -9,7 +9,7 @@
             <Button Text="Angendar Avaliação"
                     x:Name="buttonConfirmar"
                     HorizontalOptions="FillAndExpand"
-                     Margin="10,110,10,10"/>
+                     Margin="10,150,10,10"/>
             
             <Button Text="Treino"
                     x:Name="buttonTreino"
@@ -35,10 +35,10 @@
                 <Button Text="Feedback Professores"
                         HorizontalOptions="FillAndExpand"
                     x:Name="buttonFeedbackProfessores"                       
-                    Margin="10,60,2,12"/>
-                <Button Text="Sair"
+                    Margin="10,140,2,12"/>
+                <!--<Button Text="Sair"
                     x:Name="buttonSair"
-                   Margin="10,60,2,12"/>
+                   Margin="10,140,2,12"/>-->
 
             </StackLayout>
 

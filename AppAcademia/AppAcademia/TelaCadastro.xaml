@@ -7,11 +7,15 @@
            <Label Text="Area de Cadastro"
                   HorizontalOptions="Center"
                   Margin="2,20,2,2"/>
-            <Entry Text="Login"
+
+            <Image Source="fakegym.png"
+                   WidthRequest="72"/>
+
+            <Entry Text="Digite seu Nome Completo"
                    HorizontalTextAlignment="Center"
-                   x:Name="entryLogin"
+                   x:Name="entryNome"
                    Margin="2,10,2,2"/>
-            <Entry Text="Senha"
+            <Entry Text="Digite sua Senha"
                    HorizontalTextAlignment="Center"
                    x:Name="entrySenha"
                    Margin="2,10,2,2"/>
@@ -19,7 +23,7 @@
                    HorizontalTextAlignment="Center"
                    x:Name="entryDigiteNovamenteAsenhaCadastro"
                    Margin="2,10,2,2"/>
-            <Entry Text="E-MAIL"
+            <Entry Text="Digite seu E-MAIL"
                    HorizontalTextAlignment="Center"
                    x:Name="entryEmailCadastro"
                    Margin="2,10,2,2"/>
@@ -27,7 +31,7 @@
             <Button Text="Cadastrar"
                     x:Name="buttonCadastrar"
                     HorizontalOptions="FillAndExpand"
-                    Margin="20,50"/>
+                    VerticalOptions="EndAndExpand"/>
             
 
 

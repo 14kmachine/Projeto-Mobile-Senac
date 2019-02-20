@@ -8,7 +8,7 @@
                    HorizontalOptions="Center"
                    Margin="2,20,2,2"/>
 
-            <Entry Text="E-MAIL" 
+            <Entry Placeholder="E-MAIL" 
                    HorizontalTextAlignment="Center" 
                    x:Name="entryEmail"
                    Margin="2,20,2,2"/>
