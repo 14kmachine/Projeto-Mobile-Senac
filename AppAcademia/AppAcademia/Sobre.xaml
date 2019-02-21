@@ -1,13 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="AppAcademia.Sobre">
+             x:Class="AppAcademia.Sobre"
+              BackgroundColor="#698FE8">
     <ContentPage.Content>
         <StackLayout>
             <Label Text="Quem Somos"
                   HorizontalOptions="Center"
-                   Margin="10"/>
-            <Label Text="Processando..."/>
+                   Margin="10"
+                   TextColor="White"/>
+            
+            <Entry Placeholder="Processando..."
+                   x:Name="entryQuemSomos"
+                   Margin="20,10,10,10"
+                   HorizontalTextAlignment="Center"/>
             
             <!--<Button Text="Voltar"
                     x:Name="buttonVoltar"

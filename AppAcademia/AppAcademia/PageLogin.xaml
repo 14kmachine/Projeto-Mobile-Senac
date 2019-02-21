@@ -1,12 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="AppAcademia.PageLogin">
+             x:Class="AppAcademia.PageLogin"
+             BackgroundColor="#698FE8">
     <ContentPage.Content>
         <StackLayout>
             <Label Text="Academia Equipe Performance"
                HorizontalOptions="Center" 
-               Margin="2,20,2,2"/>
+               Margin="2,20,2,2"
+                   TextColor="White"/>
 
             <Image Source="fakegym.png" WidthRequest="100"/>
 

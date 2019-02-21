@@ -51,5 +51,11 @@ namespace AppAcademia
             Detail.Navigation.PushAsync(new TelaFeedbackProfessores());
             IsPresented = false;
         }
+
+        private void ViewCell_Tapped_6(object sender, EventArgs e)
+        {
+            Detail.Navigation.PushAsync(new TelaTreino());
+            IsPresented = false;
+        }
     }
 }

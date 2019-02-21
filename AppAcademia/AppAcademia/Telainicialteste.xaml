@@ -6,7 +6,8 @@
         <StackLayout>
             <Label Text="Bem Vindo"
                 VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+                HorizontalOptions="CenterAndExpand" 
+                   TextColor="White"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

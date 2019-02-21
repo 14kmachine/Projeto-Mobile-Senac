@@ -35,14 +35,19 @@ namespace AppAcademia
             }
         }
 
-        private void ButtonCadastro_Clicked(object sender, EventArgs e)
+        private async void ButtonCadastro_Clicked(object sender, EventArgs e)
         {
+            var Cadastro = new TelaCadastro();
+            await Navigation.PushModalAsync(Cadastro);
 
         }
 
-        private void ButtonRecuperarSenha_Clicked(object sender, EventArgs e)
+        private async void ButtonRecuperarSenha_Clicked(object sender, EventArgs e)
         {
-
+            var RecuperarSenha = new TelaRecuperarSenha();
+            await Navigation.PushModalAsync(RecuperarSenha);
         }
+
+      
     }
 }

@@ -1,29 +1,32 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="AppAcademia.TelaCadastro">
+             x:Class="AppAcademia.TelaCadastro"
+              BackgroundColor="#698FE8">
     <ContentPage.Content>
         <StackLayout>
            <Label Text="Area de Cadastro"
                   HorizontalOptions="Center"
-                  Margin="2,20,2,2"/>
+                  Margin="2,20,2,2"
+                  TextColor="White"/>
 
             <Image Source="fakegym.png"
                    WidthRequest="72"/>
 
-            <Entry Text="Digite seu Nome Completo"
+            <Entry Placeholder="Digite seu Nome Completo"
                    HorizontalTextAlignment="Center"
                    x:Name="entryNome"
+                   TextColor="White"
                    Margin="2,10,2,2"/>
-            <Entry Text="Digite sua Senha"
+            <Entry Placeholder="Digite sua Senha"
                    HorizontalTextAlignment="Center"
                    x:Name="entrySenha"
                    Margin="2,10,2,2"/>
-            <Entry Text="Digite Novamente a Senha"
+            <Entry Placeholder="Digite Novamente a Senha"
                    HorizontalTextAlignment="Center"
                    x:Name="entryDigiteNovamenteAsenhaCadastro"
                    Margin="2,10,2,2"/>
-            <Entry Text="Digite seu E-MAIL"
+            <Entry Placeholder="Digite seu E-MAIL"
                    HorizontalTextAlignment="Center"
                    x:Name="entryEmailCadastro"
                    Margin="2,10,2,2"/>

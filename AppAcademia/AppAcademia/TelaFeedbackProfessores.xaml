@@ -1,15 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="AppAcademia.TelaFeedbackProfessores">
+             x:Class="AppAcademia.TelaFeedbackProfessores"
+              BackgroundColor="#698FE8">
     <ContentPage.Content>
         <StackLayout>
             <Label Text="Feedback dos Professores"
                    HorizontalOptions="Center"
-                   Margin="10,30,10,10"/>
+                   Margin="10,30,10,10"
+                   TextColor="White"/>
 
-            <Label Text="Digite seu feedback aqui '-'"
-                   Margin="10"/>
+            <Entry Placeholder="Digite aqui "
+                   x:Name="entryDigiteaqui"
+                   Margin="20,10,10,10"
+                   HorizontalTextAlignment="Center"/>
 
             <Button Text="Enviar"
                     x:Name="buttonEnviarFeedback"

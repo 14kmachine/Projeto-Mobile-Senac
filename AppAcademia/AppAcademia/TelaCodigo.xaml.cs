@@ -16,5 +16,12 @@ namespace AppAcademia
 		{
 			InitializeComponent ();
 		}
-	}
+
+        private void ButtonConfirmar_Clicked()
+        {
+
+        }
+
+       
+    }
 }

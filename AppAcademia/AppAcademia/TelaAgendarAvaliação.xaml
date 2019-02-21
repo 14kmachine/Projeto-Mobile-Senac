@@ -1,10 +1,33 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="AppAcademia.TelaAgendarAvaliação">
+             x:Class="AppAcademia.TelaAgendarAvaliação"
+              BackgroundColor="#698FE8">
     <ContentPage.Content>
         <StackLayout>
-            
+            <Label Text="Agende sua Avaliação"
+                  HorizontalOptions="Center"
+                  Margin="2,20,2,2"
+                  TextColor="White"/>
+
+            <Entry Placeholder="Dia"
+                   HorizontalTextAlignment="Center"
+                   x:Name="entryDia"
+                   TextColor="White"
+                   Margin="2,30,2,2"/>
+           
+            <Entry Placeholder="Hora"
+                   HorizontalTextAlignment="Center"
+                   x:Name="entryHora"
+                   TextColor="White"
+                   Margin="2,20,2,2"/>
+
+            <Button Text="Agendar"
+                    x:Name="buttonAgendar"
+                    HorizontalOptions="FillAndExpand"
+                    VerticalOptions="EndAndExpand"/>
+
+
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

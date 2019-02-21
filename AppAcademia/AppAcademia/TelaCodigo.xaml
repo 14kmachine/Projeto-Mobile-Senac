@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="AppAcademia.TelaCodigo">
+             x:Class="AppAcademia.TelaCodigo"
+              BackgroundColor="#698FE8">
     <ContentPage.Content>
         <StackLayout>
             <Entry Text="Codigo" 
@@ -18,7 +19,8 @@
             <Button Text="Confirmar"
                     x:Name="buttonConfirmar"
                     HorizontalOptions="FillAndExpand"
-                    Margin="10,40"/>
+                    Margin="10,40"
+                    />
             
         </StackLayout>
     </ContentPage.Content>

@@ -16,5 +16,11 @@ namespace AppAcademia
 		{
 			InitializeComponent ();
 		}
-	}
+
+        private async void ButtonEnviar_Clicked(object sender, EventArgs e)
+        {
+            var Enviar = new TelaCodigo();
+            await Navigation.PushModalAsync(Enviar);
+        }
+    }
 }

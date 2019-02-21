@@ -25,6 +25,10 @@
                             <Label Text="Dicas Treino e Alimentação" x:Name="DicasTreinoeAlimentação"/>
                         </ViewCell>
 
+                        <ViewCell Tapped="ViewCell_Tapped_6">
+                            <Label Text="Treino" x:Name="Treino"/>
+                        </ViewCell>
+
                         <ViewCell Tapped="ViewCell_Tapped_4">
                             <Label Text="Sobre" x:Name="Sobre"/>
                         </ViewCell>
