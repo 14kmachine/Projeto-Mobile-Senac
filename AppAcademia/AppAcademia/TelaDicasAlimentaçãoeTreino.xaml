@@ -11,7 +11,7 @@
                    TextColor="White"/>
 
             <Entry Placeholder="Processando..."
-                   x:Name="entryQuemSomos"
+                   x:Name="entryDicas"
                    Margin="20,10,10,10"
                    HorizontalTextAlignment="Center"/>
 

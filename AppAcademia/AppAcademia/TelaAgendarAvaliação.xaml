@@ -10,17 +10,26 @@
                   Margin="2,20,2,2"
                   TextColor="White"/>
 
+            <Image Source="GYM.jpg" WidthRequest="130"/>
+
+            <Entry Placeholder="Digite seu Nome"
+                   HorizontalTextAlignment="Center"
+                   x:Name="entryNome"
+                   TextColor="White"
+                   Margin="2,40,2,2"/>
+
+
             <Entry Placeholder="Dia"
                    HorizontalTextAlignment="Center"
                    x:Name="entryDia"
                    TextColor="White"
-                   Margin="2,30,2,2"/>
+                   Margin="2,10,2,2"/>
            
             <Entry Placeholder="Hora"
                    HorizontalTextAlignment="Center"
                    x:Name="entryHora"
                    TextColor="White"
-                   Margin="2,20,2,2"/>
+                   Margin="2,10,2,2"/>
 
             <Button Text="Agendar"
                     x:Name="buttonAgendar"

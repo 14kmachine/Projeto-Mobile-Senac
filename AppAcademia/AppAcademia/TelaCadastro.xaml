@@ -10,14 +10,15 @@
                   Margin="2,20,2,2"
                   TextColor="White"/>
 
-            <Image Source="fakegym.png"
-                   WidthRequest="72"/>
+            <Image Source="GYM.jpg"
+                   WidthRequest="100"
+                   Margin="2,20"/>
 
             <Entry Placeholder="Digite seu Nome Completo"
                    HorizontalTextAlignment="Center"
                    x:Name="entryNome"
                    TextColor="White"
-                   Margin="2,10,2,2"/>
+                   Margin="2,40,2,2"/>
             <Entry Placeholder="Digite sua Senha"
                    HorizontalTextAlignment="Center"
                    x:Name="entrySenha"

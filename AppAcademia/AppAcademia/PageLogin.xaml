@@ -10,7 +10,7 @@
                Margin="2,20,2,2"
                    TextColor="White"/>
 
-            <Image Source="fakegym.png" WidthRequest="100"/>
+            <Image Source="GYM.jpg" WidthRequest="130"/>
 
             <Entry Placeholder="Login" 
                    HorizontalTextAlignment="Center" 

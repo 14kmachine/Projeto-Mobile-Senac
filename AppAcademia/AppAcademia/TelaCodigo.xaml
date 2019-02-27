@@ -5,14 +5,14 @@
               BackgroundColor="#698FE8">
     <ContentPage.Content>
         <StackLayout>
-            <Entry Text="Codigo" 
+            <Entry Placeholder="Codigo" 
                    HorizontalTextAlignment="Center" 
                    x:Name="entryEmail"
                    Margin="2,40,2,2"/>
-            <Entry Text="Senha"
+            <Entry Placeholder="Senha"
                    HorizontalTextAlignment="Center"
                    x:Name="entrySenha"/>
-            <Entry Text="Digite novamente a Senha"
+            <Entry Placeholder="Digite novamente a Senha"
                    HorizontalTextAlignment="Center"
                    x:Name="entryDigiteNovamenteaSenha"/>
 

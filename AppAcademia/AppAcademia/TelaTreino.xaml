@@ -1,104 +1,122 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="AppAcademia.TelaTreino">
+             x:Class="AppAcademia.TelaTreino"
+             BackgroundColor="#698FE8">
 
     <ContentPage.Content>
         
             <StackLayout>
+            <StackLayout>
+                <Button Text="salvar"/>
+            </StackLayout>
                 <TableView>
                     <TableSection>
                         <ViewCell>
-                        <Label Text="Peitorais"/>
-
+                        <Label BackgroundColor="#4C4C4C" 
+                               Text="Peitorais" 
+                               HorizontalOptions="FillAndExpand" 
+                               VerticalOptions="FillAndExpand"/>
                     </ViewCell>
+                        
                         <ViewCell Tapped="ViewCell_Tapped">
                             <StackLayout Orientation="Horizontal">
-                                <Label Text="N°" />
-                                <Label Text="Exercicios"/>
+                            <Label Text="N°"/>
+                            <Label Text="Exercicios"/>
                                 <Label Text="Serie"/>
                                 <Label Text="Peso"/>
                                 <Label Text=""/>
                         </StackLayout>
                         </ViewCell>
-                    <ViewCell Tapped="ViewCell_Tapped">
+                      
+                    <ViewCell Tapped="ViewCell_Tapped_1">
                         <StackLayout Orientation="Horizontal">
-                            <Label Text="N°"/>
+                            <Entry Placeholder="A1"
+                                   x:Name="entryNumero1"/>
                             <Label Text="Supino Reto"/>
-                            <Label Text="Serie"/>
-                            <Label Text="Peso"/>
-                            <Entry Text="11" x:Name="entryPeso1"/>
+                            <Entry Placeholder="1"
+                                   x:Name="entryPesoSerie1"/>
+                            <Entry Placeholder="11" x:Name="entryPeso1"/>
                         </StackLayout>
                     </ViewCell>
-                    <ViewCell Tapped="ViewCell_Tapped">
+                      
+                    <ViewCell Tapped="ViewCell_Tapped_2">
                         <StackLayout Orientation="Horizontal">
-                            <Label Text="N°"/>
+                            <Entry Placeholder="A2"
+                                   x:Name="entryNumero2"/>
                             <Label Text="Supino Inclinado"/>
-                            <Label Text="Serie"/>
-                            <Label Text="Peso"/>
-                            <Entry Text="11" x:Name="entryPeso2"/>
+                            <Entry Placeholder="2" x:Name="entrySerie2"/>
+                            <Entry Placeholder="11" x:Name="entryPeso2"/>
                         </StackLayout>
                     </ViewCell>
-                    <ViewCell Tapped="ViewCell_Tapped">
+                      
+                    <ViewCell Tapped="ViewCell_Tapped_3">
                         <StackLayout Orientation="Horizontal">
-                            <Label Text="N°"/>
+                            <Entry Placeholder="A3"
+                                   x:Name="entryNumero3"/>
                             <Label Text="Peck Deck"/>
-                            <Label Text="Serie"/>
-                            <Label Text="Peso"/>
-                            <Entry Text="11" x:Name="entryPeso3"/>
+                            <Entry Placeholder="4" x:Name="entrySerie3"/>
+                            <Entry Placeholder="11" x:Name="entryPeso3"/>
                         </StackLayout>
                     </ViewCell>
-                    <ViewCell Tapped="ViewCell_Tapped">
+                      
+                    <ViewCell Tapped="ViewCell_Tapped_4">
                         <StackLayout Orientation="Horizontal">
-                            <Label Text="N°"/>
+                            <Entry Placeholder="A4"
+                                   x:Name="entryNumero4"/>
                             <Label Text="Crucifixo"/>
-                            <Label Text="Serie"/>
-                            <Label Text="Peso"/>
-                            <Entry Text="11" x:Name="entryPeso4"/>
+                            <Entry Placeholder="4" x:Name="entrySerie4"/>
+                            <Entry Placeholder="11" x:Name="entryPeso4"/>
                         </StackLayout>
                     </ViewCell>
-                    <ViewCell Tapped="ViewCell_Tapped">
+                      
+                    <ViewCell Tapped="ViewCell_Tapped_5">
                         <StackLayout Orientation="Horizontal">
-                            <Label Text="N°"/>
+                            <Entry Placeholder="A5"
+                                   x:Name="entryNumero5"/>
                             <Label Text="Cross Over"/>
-                            <Label Text="Serie"/>
-                            <Label Text="Peso"/>
-                            <Entry Text="11" x:Name="entryPeso5"/>
+                            <Entry Placeholder="2" x:Name="entrySerie5"/>
+                            <Entry Placeholder="11" x:Name="entryPeso5"/>
                         </StackLayout>
                     </ViewCell>
-                    <ViewCell Tapped="ViewCell_Tapped">
+                      
+                    <ViewCell Tapped="ViewCell_Tapped_6">
                         <StackLayout Orientation="Horizontal">
-                            <Label Text="N°"/>
+                            <Entry Placeholder="A6"
+                                   x:Name="entryNumero6"/>
                             <Label Text="Fly Inclinado"/>
-                            <Label Text="Serie"/>
+                            <Entry Placeholder="3" x:Name="entrySerie6"/>
                             <Label Text="Peso"/>
-                            <Entry Text="11"
+                            <Entry Placeholder="11"
                                    x:Name="entryPeso6"/>
                         </StackLayout>
                     </ViewCell>
-                    <ViewCell Tapped="ViewCell_Tapped">
+                      
+                    <ViewCell Tapped="ViewCell_Tapped_7">
                         <StackLayout Orientation="Horizontal">
-                            <Label Text="N°"/>
+                            <Entry Placeholder="A7"
+                                   x:Name="entryNumero7"/>
                             <Label Text="Flexão de Braços"/>
-                            <Label Text="Serie"/>
-                            <Label Text="Peso"/>
-                            <Entry Text="11" x:Name="entryPeso7"/>
-                        </StackLayout>
-                    </ViewCell>
-                    <ViewCell Tapped="ViewCell_Tapped">
-                        <StackLayout Orientation="Horizontal">
-                            <Label Text="N°"/>
-                            <Label Text="Pull over"/>
-                            <Label Text="Serie"/>
-                            <Label Text="Peso"/>
-                            <Entry Text="11" x:Name="entryPeso8"/>
+                            <Entry Placeholder="4" x:Name="entrySerie7"/>
+                            <Entry Placeholder="11" x:Name="entryPeso7"/>
                         </StackLayout>
                     </ViewCell>
 
+                    <ViewCell Tapped="ViewCell_Tapped_8">
+                        <StackLayout Orientation="Horizontal">
+                            <Entry Placeholder="A8"
+                                x:Name="entryNumero8"/>
+                            <Label Text="Pull over"/>
+                            <Entry Placeholder="4" x:Name="EntrySerie8"/>
+                            <Entry Placeholder="11" x:Name="entryPeso8"/>
+                        </StackLayout>
+                    </ViewCell>
+                        
+                                    
                 </TableSection>
                 </TableView>
-
             </StackLayout>
+        
        
     </ContentPage.Content>
 </ContentPage>

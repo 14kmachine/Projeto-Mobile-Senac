@@ -11,7 +11,7 @@
                 <TableView>
                     <TableSection>
                         <ViewCell>
-                            <Label Text="teste"/>
+                            <Label Text="Bem Vindo"/>
                         </ViewCell>
                         <ViewCell Tapped="ViewCell_Tapped">
                             <Label Text="Agendar Avaliação" x:Name="AgendarTreino"/>
