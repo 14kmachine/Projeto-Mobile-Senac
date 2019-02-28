@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppAcademia.Android", "AppA
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppAcademia.iOS", "AppAcademia\AppAcademia.iOS\AppAcademia.iOS.csproj", "{B577B606-F30D-4F57-A2A4-B39E2F7E037B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppAcademia", "AppAcademia\AppAcademia\AppAcademia.csproj", "{8D9CFFE7-17DB-4D80-8ED2-31826A514F6D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppAcademia", "AppAcademia\AppAcademia\AppAcademia.csproj", "{8D9CFFE7-17DB-4D80-8ED2-31826A514F6D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -21,12 +21,14 @@
                    Margin="2,40,2,2"/>
             <Entry Placeholder="Digite sua Senha"
                    HorizontalTextAlignment="Center"
+                   IsPassword="True"
                    x:Name="entrySenha"
                    Margin="2,10,2,2"/>
             <Entry Placeholder="Digite Novamente a Senha"
                    HorizontalTextAlignment="Center"
-                   x:Name="entryDigiteNovamenteAsenhaCadastro"
-                   Margin="2,10,2,2"/>
+                   x:Name="entrySenha2"
+                   Margin="2,10,2,2"
+                   IsPassword="True"/>
             <Entry Placeholder="Digite seu E-MAIL"
                    HorizontalTextAlignment="Center"
                    x:Name="entryEmailCadastro"
@@ -35,7 +37,8 @@
             <Button Text="Cadastrar"
                     x:Name="buttonCadastrar"
                     HorizontalOptions="FillAndExpand"
-                    VerticalOptions="EndAndExpand"/>
+                    VerticalOptions="EndAndExpand"
+                    Clicked="ButtonCadastrar_Clicked"/>
             
 
 

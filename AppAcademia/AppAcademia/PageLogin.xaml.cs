@@ -1,8 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using SQLite;
 
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
@@ -12,27 +14,27 @@ namespace AppAcademia
 	[XamlCompilation(XamlCompilationOptions.Compile)]
 	public partial class PageLogin : ContentPage
 	{
-		public PageLogin ()
-		{
-			InitializeComponent();
-		}
+        private SQLiteAsyncConnection conexao;
+        private ObservableCollection<Usuarios> usuarios;
 
-               
+        public PageLogin()
+        {
+            InitializeComponent();
+            conexao = DependencyService.Get<ISQLite>().AcessarDB();
+        }
 
+              
         private async void ButtonEntrar_Clicked(object sender, EventArgs e)
         {
-            if (entryLogin.Text == "admin" && entrySenha.Text == "admin")
-            {
-                //ABRIR PAGINA MASTER DO APP (de forma modal)
+           if(entryLogin.Text == "admin" && entrySenha.Text == "admin")
+           {
                 var page = new MainPage();
                 await Navigation.PushModalAsync(page);
-
-
-            }
-            else
-            {
-                await DisplayAlert("Ops...", "Login e/ou senha incorretos", "OK");
-            }
+           }
+           else
+           {
+                await DisplayAlert("Ops...", "Login e/ou senha incorreta", "OK");
+           }
         }
 
         private async void ButtonCadastro_Clicked(object sender, EventArgs e)

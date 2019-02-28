@@ -8,7 +8,7 @@
         
             <StackLayout>
             <StackLayout>
-                <Button Text="salvar"/>
+                <Button Text="salvar" x:Name="buttonSalvar" Clicked="ButtonSalvar_Clicked"/>
             </StackLayout>
                 <TableView>
                     <TableSection>
@@ -45,7 +45,7 @@
                             <Entry Placeholder="A2"
                                    x:Name="entryNumero2"/>
                             <Label Text="Supino Inclinado"/>
-                            <Entry Placeholder="2" x:Name="entrySerie2"/>
+                            <Entry Placeholder="2" x:Name="entryPesoSerie2"/>
                             <Entry Placeholder="11" x:Name="entryPeso2"/>
                         </StackLayout>
                     </ViewCell>
@@ -55,7 +55,7 @@
                             <Entry Placeholder="A3"
                                    x:Name="entryNumero3"/>
                             <Label Text="Peck Deck"/>
-                            <Entry Placeholder="4" x:Name="entrySerie3"/>
+                            <Entry Placeholder="4" x:Name="entryPesoSerie3"/>
                             <Entry Placeholder="11" x:Name="entryPeso3"/>
                         </StackLayout>
                     </ViewCell>
@@ -65,7 +65,7 @@
                             <Entry Placeholder="A4"
                                    x:Name="entryNumero4"/>
                             <Label Text="Crucifixo"/>
-                            <Entry Placeholder="4" x:Name="entrySerie4"/>
+                            <Entry Placeholder="4" x:Name="entryPesoSerie4"/>
                             <Entry Placeholder="11" x:Name="entryPeso4"/>
                         </StackLayout>
                     </ViewCell>
@@ -86,7 +86,7 @@
                                    x:Name="entryNumero6"/>
                             <Label Text="Fly Inclinado"/>
                             <Entry Placeholder="3" x:Name="entrySerie6"/>
-                            <Label Text="Peso"/>
+
                             <Entry Placeholder="11"
                                    x:Name="entryPeso6"/>
                         </StackLayout>

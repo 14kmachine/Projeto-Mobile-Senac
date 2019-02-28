@@ -18,7 +18,6 @@
                    TextColor="White"
                    Margin="2,40,2,2"/>
 
-
             <Entry Placeholder="Dia"
                    HorizontalTextAlignment="Center"
                    x:Name="entryDia"
@@ -34,7 +33,8 @@
             <Button Text="Agendar"
                     x:Name="buttonAgendar"
                     HorizontalOptions="FillAndExpand"
-                    VerticalOptions="EndAndExpand"/>
+                    VerticalOptions="EndAndExpand"
+                    Clicked="ButtonAgendar_Clicked"/>
 
 
         </StackLayout>

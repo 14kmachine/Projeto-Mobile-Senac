@@ -1,20 +1,31 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using SQLite;
 
 namespace AppAcademia
 {
-	[XamlCompilation(XamlCompilationOptions.Compile)]
+    [XamlCompilation(XamlCompilationOptions.Compile)]
 	public partial class TelaAgendarAvaliação : ContentPage
 	{
-		public TelaAgendarAvaliação ()
+        private object conexao;
+
+        public TelaAgendarAvaliação ()
 		{
 			InitializeComponent ();
 		}
-	}
+
+        private void ButtonAgendar_Clicked(object sender, EventArgs e)
+        {
+            if (String.IsNullOrEmpty(entryNome.Text) ||
+                 String.IsNullOrEmpty(entryDia.Text )||
+                 String.IsNullOrEmpty(entryHora.Text))
+                 
+            {
+                DisplayAlert(null, "Não deixe os campos em branco", "OK");
+            }
+           
+        }
+    }
 }
