@@ -91,6 +91,28 @@ namespace AppAcademia
         [MaxLength(255), NotNull]
         public string Peso8 { get; set; }
 
+        [MaxLength(255), NotNull]
+
+        public string agendarnome { get; set; }
+        [MaxLength(255), NotNull]
+        public string dia { get; set; }
+
+        [MaxLength(255), NotNull]
+        public string hora { get; set; }
+
+        [MaxLength(255), NotNull]
+        public string digite{ get; set; }
+
+        [MaxLength(255), NotNull]
+        public string dicas{ get; set; }
+
+        [MaxLength(255), NotNull]
+        public string quemsomos { get; set; }
+
+        [MaxLength(255), NotNull]
+        public string feedback { get; set; }
+
+
 
 
 

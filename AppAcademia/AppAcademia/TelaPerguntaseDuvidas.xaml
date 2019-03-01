@@ -18,7 +18,8 @@
 
             <Button Text="Enviar"
                     x:Name="buttonEnviar"
-                    VerticalOptions="EndAndExpand"/>
+                    VerticalOptions="EndAndExpand"
+                    Clicked="ButtonEnviar_Clicked"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

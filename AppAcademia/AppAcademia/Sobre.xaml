@@ -14,11 +14,12 @@
                    x:Name="entryQuemSomos"
                    Margin="20,10,10,10"
                    HorizontalTextAlignment="Center"/>
-            
-            <!--<Button Text="Voltar"
-                    x:Name="buttonVoltar"
+
+            <Button Text="Salvar"
+                    x:Name="buttonSalvar"
                     HorizontalOptions="FillAndExpand"
-                    Margin="20,470"/>-->
+                    VerticalOptions="EndAndExpand"
+                    Clicked="ButtonSalvar_Clicked"/>
 
         </StackLayout>
     </ContentPage.Content>

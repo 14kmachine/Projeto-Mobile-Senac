@@ -16,15 +16,11 @@
                    HorizontalTextAlignment="Center"/>
 
             <Button Text="Enviar"
-                    x:Name="buttonEnviarFeedback"
+                    x:Name="buttonFeedback"
                     HorizontalOptions="FillAndExpand"
-                     VerticalOptions="EndAndExpand"/>
-
-            <!--<Button Text="Voltar"
-                    x:Name="buttonVoltar"
-                     Margin="50,0"/>-->
-
-
+                     VerticalOptions="EndAndExpand"
+                    Clicked="ButtonFeedback_Clicked"/>
+           
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
